@@ -1,6 +1,6 @@
 language: java
 sudo: true
-script: mvn build test sonarqube
+script: gradle build test
 dist: trusty
 jdk:
   - openjdk8
